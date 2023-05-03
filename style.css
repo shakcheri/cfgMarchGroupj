@@ -1,0 +1,205 @@
+/* our colors */
+:root {
+    --colorA: #896ee0;
+    --colorB: #696969;
+    --colorC: #000000;
+    --colorD: #FFFFFF;
+  }
+
+ 
+  
+
+
+  .header {
+    overflow: hidden;
+    background-color: rgb(234, 231, 237);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  .imgl {float: left;}
+ 
+  .transparentBackground {
+    background: rgba(255, 255, 255, 0.5); /* Black background with 0.5 opacity */;
+padding: 0 8px;}
+
+
+  .regulartext{
+
+    font-family:  'Poppins', sans-serif;
+  }
+
+/*  title aligned in center */
+
+.pagetitle {
+    text-align: center ;
+    font-family:  'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: var(--colorA);
+    margin-top: 25px; /* Add a top margin to avoid content overlay */
+    width: 100%;
+
+  }
+  
+
+  .column1 {
+    float: left;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    background-color: var(--colorA);
+  }
+/* 4 columns side by side */
+.column4 {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+  /* 2 columns side by side */
+
+  .column2 {
+    float: left;
+    width: 45%;
+    margin-bottom:16px;
+    
+    padding: 0 20px;
+  }
+  .column2a {
+    float: left;
+    width: 45%;
+    margin-bottom:16px;
+   
+    padding: 0 20px;
+    background-color: var(--colorA);
+  }
+
+  .column2b {
+    float: left;
+    width: 45%;
+    margin-bottom:16px;
+    padding: 0 20px;
+    background-color: var(--colorB);
+  }
+
+  .column2c {
+    float: left;
+    width: 45%;
+    margin-bottom:16px;
+    padding: 0 20px;
+    background-color: var(--colorC);
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column4 {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .column2 {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column2a {
+      width: 100%;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .column2b {
+      width: 100%;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .column2c {
+      width: 100%;
+      display: block;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    .column2d {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: var(--colorB);
+    font-family:  'Poppins', sans-serif;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;font-family:  'Poppins', sans-serif;
+    padding: 8px;
+    color: white;
+    background-color: var(--colorA);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-family:  'Poppins', sans-serif;
+
+        box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    
+        
+  }
+  
+  .button:hover {
+    background-color: var(--colorB;)
+  }
+
+
+
+ .content {
+    position: absolute; /* Position the background text */
+    float: left;
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 15px; /* Some padding */
+
+  }
+
+  .centeredcontainer {
+    align-items: center;
+    justify-content: center;
+  }
+
+  image {
+    width: 25%;
+    height:15%;
+    float: left;
+  }
+
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: left;
+  }
