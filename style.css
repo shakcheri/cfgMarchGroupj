@@ -14,7 +14,7 @@
     background: linear-gradient(rgba(0,0,0,0.5), #896EE0), url(windows-w79mIrYKcK4-unsplash.jpg);
     background-size:cover;
     background-position: center;
-    height: 100vh;
+    height: 70vh;
 }
 
 #logo{
@@ -52,7 +52,7 @@ nav a {
 #projects{
     width:100%;
     padding: 70px  0;
-    background: #efefef;
+    background: #ffff;
     height: 100vh;
 }
 
