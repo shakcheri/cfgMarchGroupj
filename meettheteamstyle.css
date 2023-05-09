@@ -26,7 +26,14 @@ padding: 0 8px;}
 
     font-family:  'Poppins', sans-serif;
   }
-
+  .colorDtext{
+color: var(--colorD);
+    font-family:  'Poppins', sans-serif;
+  }
+  .colorCtext{
+    color: var(--colorC);
+        font-family:  'Poppins', sans-serif;
+      }
 /*  title aligned in center */
 
 .pagetitle {
@@ -144,7 +151,7 @@ padding: 0 8px;}
   }
   
   .title {
-    color: var(--colorB);
+    color: var(--colorC);
     font-family:  'Poppins', sans-serif;
   }
   
@@ -171,17 +178,7 @@ padding: 0 8px;}
 
 
 
- .content {
-    position: absolute; /* Position the background text */
-    float: left;
-    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    color: #f1f1f1; /* Grey text */
-    width: 100%; /* Full width */
-    padding: 15px; /* Some padding */
-
-  }
+ 
 
   .centeredcontainer {
     align-items: center;
@@ -289,3 +286,38 @@ padding: 0 8px;}
         flex-basis: 45%;
     }
 }
+
+
+
+
+#banner{
+    
+  background: linear-gradient(rgba(0,0,0,0.5), #896EE0), url(meettheteamall.png);
+  background-size:cover;
+  background-position: center;
+  height: 100vh;
+}
+
+#logo{
+  
+  color: #ffff;
+}
+
+.banner-text{
+  text-align:center;
+  color: #ffff;
+  padding-top: 150px;
+}
+
+.banner-text h1{
+  font-size: 130px;
+}
+
+.banner-text p{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.content1 {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */}
